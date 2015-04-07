@@ -1,0 +1,311 @@
+	.intro header{
+		
+		height: 300px;
+		
+		background-image: url(imagenes/sherlock_title.png);
+		background-size: 100%;
+		color: #FFF;
+		text-align: center;
+		padding-bottom: 80px;
+
+	}
+
+	.intro header h1{
+		color:#000	;
+		text-transform: uppercase;
+		opacity: 0.4;
+		font-weight: 80;
+		font-size: 60px;
+		font-family: arial;
+		position: relative;
+		top:70px;
+		left: 60px;
+		
+
+	}
+
+	.intro header h2{
+		
+		text-align: left;
+		
+		font-size: 40px;
+		font-weight: lighter;
+		color: #FFF;
+		text-align: center;	
+		position: relative;
+		top:20px;
+		left: 50px;
+		font-family: calibri;
+		font-size: 30px;
+	}
+	body{
+		width: 1200px;
+		
+		font-family: Aparajita;
+		text-align: justify;
+		margin:auto;	
+		margin-top: 0px;
+	}
+
+	h3{
+		font-family: Century;
+		font-weight: lighter;
+	}
+
+
+
+
+	.summary {
+		font-size: 20px;
+		font-family: Arial;
+		text-align: justify;
+		position: absolute;
+		bottom:215px;
+		left: 649px;
+		background: rgba(0, 0, 0, .5); 
+		color: #FFF;
+		padding: 10px;
+		padding-left: 15px;
+
+		
+	}
+
+	.summary p{
+		width: 600px;
+		font-size: 20px;
+		
+
+
+	}
+
+	.preamble{
+		background-color: #000;
+		color: #000;
+		padding-top: 20px;
+		background-image: url(imagenes/sh2.png);
+		width:400px;
+		float: left;
+		padding-bottom: 90px;
+
+	}
+
+	.preamble p{
+		width: 380px;
+		text-align: justify;
+		font-family: Agency FB;
+	}
+
+	.preamble h3{
+		text-align: center;
+		
+		color:#66CDAA;
+	}
+
+	.explanation{
+		
+		
+		width:400px;
+	float: left;
+	background-image: url(imagenes/john.png);
+	padding-bottom: 90px;
+	
+	}
+
+	.explanation p{
+		
+		text-align: justify;
+		font-family: Agency FB;
+		width: 380px;
+		
+	}
+
+	.explanation h3{
+		
+		color:#CD853F;
+		text-align: center;
+		
+	}
+
+	.participation{
+		float: right;
+		width: 400px;
+		background-image: url(imagenes/door2.png);
+		padding-bottom: 90px;
+	}
+
+	.participation p{
+		width: 380px;
+	}
+
+	.participation h3{
+		text-align: center;
+		color:#BA55D3;
+	}
+
+	.requirements{
+		width: 900px;
+		background-image: url(imagenes/fake.png);
+
+		
+
+	}
+
+	.requirements h3{
+		background: rgba(0, 0, 0, .1); 
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.design-selection{
+		float: right;
+		
+		position:absolute;
+		
+		bottom: -920px;
+		left: 1000px;
+		height: 700px;
+	}
+
+	footer a{
+		color: #000;
+		opacity: 0.4;
+		margin-right: 80px;
+		font-size: 70px;
+		width: 150px;
+
+		padding-left: 8px;
+
+
+	}
+
+	footer a:hover {
+	background-image: url(imagenes/smile.png);
+
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #000;
+	text-shadow: 0px 0px 5px #F9FC8D;
+	
+	
+	}
+
+	.archives{
+		font-size: 20px;
+		width: 150px;
+		
+		text-align: center;
+		transform: rotate(90deg);
+	transform-origin: left top 0;
+	background: rgba(0, 0, 0, .5); 
+
+	}
+
+	.design-archives ul li{
+		list-style-type: none;
+		
+
+	}
+
+	.design-archives  .next{
+
+		background-image: url(imagenes/16913.png);
+		font-size: 75px;
+		font-family:Copperplate Gothic Light;
+		position: relative;
+		left: -12px;
+		color:green;
+		font-family: arial;
+		width: 700px;
+		
+
+	}
+
+	.design-archives  .next a{
+
+		text-decoration: none;
+		color: #696969;
+
+	}
+
+
+	.design-archives .next span{
+		visibility: hidden;
+	}
+
+	.design-archives  .viewall{
+
+		
+		font-size: 25px;
+		font-family:Copperplate Gothic Light;
+		position: relative;
+		left: -12px;
+		
+		
+		
+
+	}
+
+
+	.zen-resources ul li{
+		list-style-type: none;
+		display: inline;
+
+	}
+
+
+	.zen-resources {
+		background-color: #3CB371;
+		opacity: 0.6;
+		font-weight: bold;
+		font-size: 15px;
+
+		font-family: arial;
+	}
+
+	.zen-resources a{
+	 	margin-right: 120px;
+	}
+
+	.zen-resources h3{
+		text-align: center;
+	}
+
+	.design-selection h3{
+		text-align: center;
+	}
+
+	.design-selection ul {
+		list-style: none;
+
+	}
+
+	.design-selection{
+		
+		width: 270px;
+
+
+	}
+
+	.design-selection .design-name{
+		
+
+		font-family: verdana;
+
+	}
+
+	.design-selection .designer-name{
+		font-size: 15px;
+	}
+
+	.design-selection li{
+		padding-bottom: 30px;
+		margin-left: -20px;
+		background-image: url(imagenes/n.png);
+	}
+
+	.design-selection a{
+		text-decoration: none;
+		color:black;
+		font-weight: bold;
+
+	}
